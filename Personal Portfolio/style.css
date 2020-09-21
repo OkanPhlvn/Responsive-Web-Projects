@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: visible;
+  background-color: #ff414d;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.topnav a:hover {
+  background-color: #70adb5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#about {
+  justify-content: center;
+  align-items: center;
+  padding-top: 290px;
+  padding-bottom: 290px;
+  background-color: #1b262c;
+}
+
+#about #name {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#about #jobDesc {
+  color: #ff414d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#work {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: block;
+  background-color: #407088;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+#work #showButton {
+  position: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 480px;
+  font-size: 28px;
+}
+
+#work #showButton:hover {
+  background-color: #ff414d;
+}
+
+#contact {
+  padding-top: 110px;
+  padding-bottom: 290px;
+  background-color: #1b262c;
+  color: white;
+}
+
+#contact #contactHeader {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  display: inline;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+#contact ul li i:hover {
+  transform: rotate(20deg);
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  border-top: 6px solid #ff414d;
+  background-color: #1b262c;
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 250px;
+}

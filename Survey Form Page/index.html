@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <div class="container text-white text-center mt-5">
+      <section>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">
+          <em>Thank you for taking the time to help us improve the platform</em>
+        </p>
+      </section>
+    </div>
+
+    <div class="container text-white bg-colorr">
+      <form id="survey-form">
+        <div class="form-group pl-5 pr-5">
+          <label class="pt-5" for="inputName">Name</label>
+          <input
+            type="name"
+            class="form-control"
+            id="inputName"
+            placeholder="Enter your Name"
+            aria-describedby="nameHelp"
+          />
+        </div>
+
+        <div class="form-group pl-5 pr-5">
+          <label for="inputEmail">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail"
+            placeholder="Enter your Email"
+            aria-describedby="emailHelp"
+          />
+        </div>
+
+        <div class="form-group pl-5 pr-5">
+          <label for="inputAge">Age(optional)</label>
+          <input
+            type="number"
+            class="form-control"
+            value="10"
+            min="0"
+            max="1000"
+            step="1"
+            id="inputEmail"
+            placeholder="Enter your age"
+            aria-describedby="ageHelp"
+          />
+        </div>
+
+        <div class="form-group pl-5 pr-5">
+          <label for="selectOption"
+            >Which option best describes your current role?</label
+          >
+          <select
+            class="custom-select"
+            id="inputGroupSelect"
+            aria-label="Example select with button addon"
+          >
+            <option selected>Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="4">Full Time Learner</option>
+            <option value="5">Prefer Not to Say</option>
+            <option value="6">Other</option>
+          </select>
+        </div>
+
+        
+    <div class="form-group pl-5 pr-5">
+        <label for="radioDescrition">Would you recommend freeCodeCamp to a friend?</label>
+        <div class="form-check">
+            <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="firstRadio" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Definetily
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="secondRadio" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Maybe
+            </label>
+        </div>
+        
+        <div class="form-check disabled">
+            <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="thirdRadio" value="option3" >
+            <label class="form-check-label" for="exampleRadios3">
+              Not sure
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group pl-5 pr-5">
+        <label for="selectOption"
+          >What is your favorite feature of freeCodeCamp?</label
+        >
+        <select
+          class="custom-select"
+          id="inputGroupSelect"
+          aria-label="Example select with button addon"
+        >
+          <option selected>Select an option</option>
+          <option value="1">Challenges</option>
+          <option value="2">Projects</option>
+          <option value="3">Community</option>
+          <option value="4">Open Source</option>
+        
+        </select>
+      </div>
+
+      <div class="form-group pl-5 pr-5">
+          <label for="checkboxDesc">What would you like to see improved? (Check all that apply)</label>
+        <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Front-end Projects
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck2">
+            <label class="form-check-label" for="defaultCheck2">
+                Back-end Projects
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck3">
+            <label class="form-check-label" for="defaultCheck3">
+                Data Visualization
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck4">
+            <label class="form-check-label" for="defaultCheck4">
+                Challenges
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck5">
+            <label class="form-check-label" for="defaultCheck5">
+                Open Source Community
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck6">
+            <label class="form-check-label" for="defaultCheck6">
+                Gitter help rooms
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck7">
+            <label class="form-check-label" for="defaultCheck7">
+                Videos
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck8">
+            <label class="form-check-label" for="defaultCheck8">
+                City Meetups
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck9">
+            <label class="form-check-label" for="defaultCheck9">
+                Wiki
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck10">
+            <label class="form-check-label" for="defaultCheck10">
+                Forum
+
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck11">
+            <label class="form-check-label" for="defaultCheck11">
+                Additional Courses
+            </label>
+          </div>
+      </div>
+
+
+      <div class="form-group pl-5 pr-5">
+        <label for="commentHeader">Any comments or suggestions?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your comment here" rows="3"></textarea>
+      </div>
+     
+      <div class="form-group pb-5 pl-5 pr-5">
+        <button type="button" class="btn btn-success btn-lg btn-block">Submit</button>
+      </div>
+
+        
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <i id="header-img" class="fas fa-play pr-3"></i>
+        <a class="navbar-brand" href="#">Original Trombones</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end pr-5"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item pr-5">
+              <a class="nav-link" href="#features">Features </a>
+            </li>
+            <li class="nav-item pr-5">
+              <a class="nav-link" href="#video">How It Works</a>
+            </li>
+            <li class="nav-item pr-5">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="firstSection">
+      <div class="container text-center">
+        <h4>Handcrafted, home-made masterpieces</h4>
+        <div class="form-group pt-2">
+          <input
+            type="email"
+            class="form-control mx-auto"
+            placeholder="Enter your email adress"
+            id="inputEmail"
+            required
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <button id="button1" class="btn btn-warning font-weight-bold">GET STARTED</button>
+      </div>
+    </section>
+
+    <section id="features">
+      <div id="icon" class="container mx-auto">
+        <div class="row">
+          <div class="col-md-2 offset-md-2">
+            <i style="padding-top: 20px" class="fas fa-fire ml-2"></i>
+            <i style="padding-top: 75px" class="fas fa-truck-pickup"></i>
+            <i style="padding-top: 90px" class="fas fa-battery-full"></i>
+          </div>
+          <div class="col-md-8">
+            <div style="padding-top: 5px" class="container">
+              <h3>Premium Materials</h3>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+
+            <div style="padding-top: 40px" class="container">
+              <h3>Fast Shipping</h3>
+              <p>
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+
+            <div style="padding-top: 41px" class="container">
+              <h3>Quality Assurance</h3>
+              <p>
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="video" class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 offset-md-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <section id="pricing">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card border-dark">
+              <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">TENOR TROMBONE</h5>
+                <hr />
+                <h2 class="text-center pb-3">$600</h2>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <a class="btn btn-warning">SELECT</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-dark">
+              <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">BASS TROMBONE</h5>
+                <hr />
+                <h2 class="text-center pb-3">$900</h2>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <a class="btn btn-warning">SELECT</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-dark">
+              <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">VALVE TROMBONE</h5>
+                <hr />
+                <h2 class="text-center pb-3">$1200</h2>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <p class="card-text text-center">Lorem İpsum.</p>
+                <a class="btn btn-warning">SELECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container pb-5" style="background-color: #aaaaaa">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a style="color: black;" class="nav-link" href="#">Privacy</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black;" class="nav-link" href="#">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black;" class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <p style="color: #4c4c4c;" id="footerParagraph">Copyright 2016, Original Trombones</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
